@@ -1,0 +1,151 @@
+@charset "UTF-8";
+.menubar{
+border:none;
+border:0px;
+margin:0px;
+padding:0px;
+font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+}
+
+.menubar img{
+	float:left;
+	margin:0px 20px 0px 30px;
+	width:40px;
+	height:40px;
+	clear:both;
+}
+
+.menubar h2{
+  color:#DF0101;
+  font-family:'Malgun Gothic';
+  letter-spacing: 5px;
+  text-shadow: 1px 1px #F5A9A9;
+  padding:0px 0px 0px 50px;
+
+}
+
+.menubar h4{
+  float:right;
+  color:#000000;
+  font-family:'Malgun Gothic';
+  letter-spacing: 0px;
+  padding:0px 50px 0px 0px;
+}
+
+.menubar ul{
+background: #FA5858;
+height:40px;
+list-style:none;
+margin:0px;
+padding:0px 0px 0px 30px;
+border-top:10px solid rgb(71,71,71);
+border-bottom:10px solid rgb(71,71,71);
+}
+
+.menubar li{
+float:left;
+padding:0px;
+}
+
+.menubar li#right{
+  float:right;
+  padding:0px 30px 0px 0px;
+}
+
+.menubar li a{
+background: #FA5858;
+color:#ffffff;
+display:block;
+font-weight:bold;
+line-height:40px;
+margin:0px;
+padding:0px 30px;
+text-align:center;
+text-decoration:none;
+border-bottom:10px solid rgb(71,71,71);
+}
+
+
+.menubar li#right a{
+background: rgb(71,71,71);
+color:#ffffff;
+display:block;
+font-weight:bold;
+line-height:40px;
+margin:0px;
+padding:0px 30px;
+text-align:center;
+text-decoration:none;
+border-bottom:10px solid rgb(71,71,71);
+}
+
+
+.menubar li a:hover, .menubar ul li:hover a{
+background: rgb(71,71,71);
+color:#cccccc;
+text-decoration:none;
+}
+
+.menubar li#right a:hover, .menubar ul li#right:hover a{
+background: #DF0101;
+color:#ffffff;
+text-decoration:none;
+}
+
+.menubar li ul{
+background: #FA5858;
+display:none; /* 평상시에는 드랍메뉴가 안보이게 하기 */
+height:auto;
+padding:0px;
+margin:0px;
+border:0px;
+position:absolute;
+width:200px;
+z-index:200;
+/*top:1em;
+/*left:0;*/
+}
+
+.menubar li:hover ul{
+display:block; /* 마우스 커서 올리면 드랍메뉴 보이게 하기 */
+}
+
+.menubar li li {
+background: #FA5858;
+display:block;
+float:none;
+margin:0px;
+padding:0px;
+width:200px;
+}
+
+.menubar li:hover li a{
+background:none;
+color:#FFFFFF;
+line-height:50px;
+border-bottom:0px;
+}
+
+.menubar li ul a{
+display:block;
+height:50px;
+vertical-align:middle;
+font-size:12px;
+font-style:normal;
+margin:0px;
+padding:0px 10px 0px 15px;
+text-align:left;
+}
+
+.menubar li ul a:hover, .menubar li ul li:hover a{
+background: rgb(71,71,71);
+border:0px;
+color:#cccccc;
+text-decoration:none;
+}
+
+.menubar p{
+clear:none;
+}
